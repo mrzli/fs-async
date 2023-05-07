@@ -4,6 +4,12 @@ All notable changes to the "fs-async" will be documented in this file.
 
 ## [Unreleased]
 
+## [0.0.2] - 2023-05-07
+
+### Added
+
+- Add `createFileAsync` and `existsAsync` functions.
+
 ## [0.0.1] - 2023-05-07
 
 ### Added

@@ -1,6 +1,6 @@
 {
   "name": "@gmjs/fs-async",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Async file system utilities.",
   "author": {
     "name": "Goran Mržljak",
@@ -31,6 +31,7 @@
   },
   "dependencies": {
     "@gmjs/fs-shared": "^0.0.2",
+    "fs-extra": "^11.1.1",
     "klaw": "^4.1.0",
     "tslib": "^2.5.0"
   },
@@ -40,6 +41,7 @@
     "@gmjs/tsconfig": "^1.0.0",
     "@jest/globals": "^29.5.0",
     "@types/eslint": "^8.37.0",
+    "@types/fs-extra": "^11.0.1",
     "@types/klaw": "^3.0.3",
     "@typescript-eslint/eslint-plugin": "^5.59.2",
     "@typescript-eslint/parser": "^5.59.2",

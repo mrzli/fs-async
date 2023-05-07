@@ -1,4 +1,4 @@
-import { promises as fs } from 'node:fs';
+import fs from 'fs-extra';
 import { ENCODING_UTF8 } from '@gmjs/fs-shared';
 
 export async function readTextAsync(filePath: string): Promise<string> {
@@ -21,4 +21,12 @@ export async function writeBinaryAsync(
   content: Buffer
 ): Promise<void> {
   await fs.writeFile(filePath, content);
+}
+
+export async function createFileAsync(filePath: string): Promise<void> {
+  await fs.createFile(filePath);
+}
+
+export async function existsAsync(filePath: string): Promise<boolean> {
+  return await fs.pathExists(filePath);
 }
