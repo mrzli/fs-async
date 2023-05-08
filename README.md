@@ -14,16 +14,21 @@ npm install --save @gmjs/fs-async
 
 - `readTextAsync(filePath: string): Promise<string>`
   - Description - Read a text file.
+---
 - `writeTextAsync(filePath: string, content: string): Promise<void>`
   - Description - Write a text file.
+---
 - `readBinaryAsync(filePath: string): Promise<Buffer>`
   - Description - Read a binary file.
+---
 - `writeBinaryAsync(filePath: string, content: Buffer): Promise<void>`
   - Description - Write a binary file.
+---
 - `createFileAsync(filePath: string): Promise<void>`
   - Description
     - Create a file.
     - Often used with `writeTextAsync` or `writeBinaryAsync` to ensure that a file and ancestor directories exist before writing to it.
+---
 - `existsAsync(filePath: string): Promise<boolean>`
   - Description - Check if a file exists.
 
