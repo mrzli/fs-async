@@ -1,6 +1,6 @@
 {
   "name": "@gmjs/fs-async",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Async file system utilities.",
   "author": {
     "name": "Goran Mržljak",
