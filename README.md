@@ -1,6 +1,6 @@
 # Async File System Utilities
 
-This is a simple file system utilities for Node.js, using Promises.
+These are simple file system utilities for Node.js, using Promises.
 
 ## Installation
 
