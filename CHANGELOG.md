@@ -4,6 +4,12 @@ All notable changes to the "fs-async" will be documented in this file.
 
 ## [Unreleased]
 
+## [0.0.4] - 2023-05-11
+
+### Changed
+
+- **Breaking:** Rename `findFsEntriesAsync` to `findFileSystemEntriesAsync`.
+
 ## [0.0.3] - 2023-05-10
 
 ### Changed

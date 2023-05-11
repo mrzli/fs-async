@@ -44,7 +44,7 @@ npm install --save @gmjs/fs-async
 
 ### Find
 
-- `findFsEntriesAsync(directory: string, options?: FindOptions): Promise<readonly FilePathStats[]>`
+- `findFileSystemEntriesAsync(directory: string, options?: FindOptions): Promise<readonly FilePathStats[]>`
   - Description - Search a directory for files. Search can be limited by depth.
   - Parameters
     - `directory: string` - The directory to search.

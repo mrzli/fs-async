@@ -1,7 +1,7 @@
 import klaw from 'klaw';
 import { FilePathStats, FindOptions, toKlawFindOptions } from '@gmjs/fs-shared';
 
-export async function findFsEntriesAsync(
+export async function findFileSystemEntriesAsync(
   directory: string,
   options?: FindOptions
 ): Promise<readonly FilePathStats[]> {
