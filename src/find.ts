@@ -3,7 +3,7 @@ import { FilePathStats, FindOptions, toKlawFindOptions } from '@gmjs/fs-shared';
 
 export async function findFileSystemEntriesAsync(
   directory: string,
-  options?: FindOptions
+  options?: FindOptions,
 ): Promise<readonly FilePathStats[]> {
   return new Promise<readonly FilePathStats[]>((resolve, reject) => {
     const entries: FilePathStats[] = [];

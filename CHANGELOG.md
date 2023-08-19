@@ -4,6 +4,17 @@ All notable changes to the "fs-async" will be documented in this file.
 
 ## [Unreleased]
 
+## [0.0.5] - 2023-08-19
+
+### Changed
+
+- Update dependencies.
+- Update publishing process.
+
+### Added
+
+- Add `ensureDirAsync` function.
+
 ## [0.0.4] - 2023-05-11
 
 ### Changed
